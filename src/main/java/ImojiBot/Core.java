@@ -1,4 +1,4 @@
-﻿package ImojiBot;
+package ImojiBot;
 
 import ImojiBot.Commands.CommandList;
 import ImojiBot.Commands.CommandUtil;

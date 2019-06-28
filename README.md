@@ -1,7 +1,12 @@
 # Imoji Bot! Discord Hack Week 2019
 
 ## What is It?
-The Imoji Bot is a discord bot developed in java through the JDA library by one person for Discord Hack Week 2019. Imoji bot allows server admins to give specific guild members and members of a certain role, emoji icons before, after, or before and after their name. 
+The Imoji Bot is a discord bot developed in java through the JDA library by one person for Discord Hack Week 2019. Imoji bot allows server admins to give specific guild members and members of a certain role, emoji icons before, after, or before and after their name. This enhances user experiences and gives incentive to being a respected member of a community. The official bot will be released for people to invite soon!
+
+![](https://media.giphy.com/media/lOmdFrN5Mg6R75rozC/giphy.gif)
+
+## Team
+🎉Fiercest🎉#2681 | 399017078616621065
 
 ## How To Use
 **Note: You must have administrator privileges to use this bot!**
@@ -64,9 +69,6 @@ Here is the following permissions string. Use administrator at your own discreti
 
  1. Make bot add emoji and change name based on member nickname rather than global user name.
  2. Make icon location base off of specific role rather than a server-wide setting.
-
-## Team
-??Fiercest??#2681 | 399017078616621065
 
 ## Restrictions
 The Imoji Bot does not work with custom emojis as placing these in the nickname of the user will exceed 32 characters, and will not work.
