@@ -33,10 +33,10 @@ From there, you can modify the bot and build it with maven. Please note that the
 Rather than using the regular command structure of the JDA library, I opted to use my own, it was a little more fun. How does it work?
 
 Commands are Registered via the `ImojiBot.Commands.CommandList.java` class in the RegisterCommands method. Here is an example of registering a command.
-
+```java
     RegisterCommand("name", functional_interface_implementation, "description");	
     RegisterCommand("name", functional_interface_implementation, "description", new String[] {"argument1"});
-
+```
  - The name is what is detected with the prefix. E.g. if a user types:
    > ~help
    
@@ -48,6 +48,7 @@ Commands are Registered via the `ImojiBot.Commands.CommandList.java` class in th
 
 The functional_interface_implementation is the body of a command. This allows you to code the command whichever way you want. For instance: 
 
+```java
     //Register Command in the RegisterCommands method
     RegisterCommand("SayHello", say_hello, "The bot says hi!");
     
@@ -56,6 +57,7 @@ The functional_interface_implementation is the body of a command. This allows yo
 	   //Says "Hello!" in the channel that the command was received!
 	   e.getChannel().sendMessage("Hello!").queue();
     };
+ ```
     
 This works similar to the built in system. However, arguments must be parsed manually within the implementation. Commands are caught in the onMessageReceived method in the Core class.
 
