@@ -1,4 +1,4 @@
-# Imoji Bot! Discord Hack Week 2019
+# Imoji Bot! Discord Hack Week 2019<img align="right" width="190" height="190" src="https://cdn.discordapp.com/avatars/592774233453494272/88d9ede64629ad143df6f0ad7dda4281.png?size=128">
 
 ## What is It?
 The Imoji Bot is a discord bot developed in java through the JDA library by one person for Discord Hack Week 2019. Imoji bot allows server admins to give specific guild members and members of a certain role, emoji icons before, after, or before and after their name. This enhances user experiences and gives incentive to being a respected member of a community. The official bot will be released for people to invite soon!
