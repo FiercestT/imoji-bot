@@ -147,6 +147,9 @@ public class ServerInstance
 	 */
 	public void SaveServer()
 	{
+		if(!new File("./Data/").exists())
+			new File("./Data/").mkdir();
+		
 		//Save to file
 		try
 		{
@@ -164,6 +167,9 @@ public class ServerInstance
 	 */
 	public void LoadServer()
 	{
+		if(!new File("./Data/").exists())
+			new File("./Data/").mkdir();
+		
 		//Load from file
 		try
 		{

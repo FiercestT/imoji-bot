@@ -62,6 +62,9 @@ public class ServerInstances
 	 */
 	public static void LoadAllServerInstances()
 	{
+		if(!new File("./Data/").exists())
+			new File("./Data/").mkdir();
+		
 		for(File server : Arrays.asList(new File("./Data/").listFiles()))
 		{			
 			ServerInstance instance = new ServerInstance(Long.parseLong(server.getName()));
